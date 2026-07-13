@@ -74,34 +74,40 @@ font-weight:600;
 
 /* Text Input */
 
-.stTextInput input{
+/* Text Input */
 
-    background: rgba(255,255,255,0.12);
+.stTextInput input {
 
-    color: Black!important;      /* Typed text color */
+    background: white !important;
 
-    font-size:18px;
+    color: black !important;
 
-    font-weight:bold;
+    -webkit-text-fill-color: black !important;
 
-    border:2px solid #00FFFF;
+    font-size: 18px !important;
 
-    border-radius:20px;
+    font-weight: normal !important;
 
-}
+    font-family: Arial, sans-serif !important;
 
+    caret-color: black !important;
 
-/* Placeholder text */
+    border: 2px solid #00FFFF !important;
 
-.stTextInput input::placeholder{
-
-    color:#B0B0B0 !important;
-
-    opacity:1;
+    border-radius: 20px !important;
 
 }
 
 
+/* Placeholder */
+
+.stTextInput input::placeholder {
+
+    color: gray !important;
+
+    font-weight: normal !important;
+
+}
 /* Dropdown */
 
 .stSelectbox div[data-baseweb="select"] {
