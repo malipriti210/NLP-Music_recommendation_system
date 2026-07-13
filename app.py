@@ -191,12 +191,11 @@ unsafe_allow_html=True
 @st.cache_data
 def load_data():
 
-    hindi = pd.read_csv("hindi_songs.csv")
-    punjabi = pd.read_csv("punjabi_songs.csv")
-    marathi = pd.read_csv("marathi_songs.csv")
-    kannada = pd.read_csv("kannada_songs.csv")
-    gujarati = pd.read_csv("Gujarati_songs.csv")
-
+hindi = pd.read_csv("Hindi_songs.csv")
+punjabi = pd.read_csv("Punjabi_songs.csv")
+marathi = pd.read_csv("Marathi_songs.csv")
+kannada = pd.read_csv("Kannada_songs.csv")
+gujarati = pd.read_csv("Gujarati_songs.csv")
 
     hindi["language"]="Hindi"
     punjabi["language"]="Punjabi"
