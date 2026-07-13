@@ -72,18 +72,34 @@ font-weight:600;
 
 /* Input box */
 
-.stTextInput input {
+/* Text Input */
 
-background:rgba(255,255,255,0.15);
+.stTextInput input{
 
-color:white;
+    background: rgba(255,255,255,0.12);
 
-border-radius:25px;
+    color: #00FFFF !important;      /* Typed text color */
 
-border:2px solid #00ffff;
+    font-size:18px;
+
+    font-weight:bold;
+
+    border:2px solid #00FFFF;
+
+    border-radius:20px;
 
 }
 
+
+/* Placeholder text */
+
+.stTextInput input::placeholder{
+
+    color:#B0B0B0 !important;
+
+    opacity:1;
+
+}
 
 
 /* Dropdown */
