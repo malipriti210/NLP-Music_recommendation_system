@@ -78,7 +78,7 @@ font-weight:600;
 
     background: rgba(255,255,255,0.12);
 
-    color: #00FFFF !important;      /* Typed text color */
+    color: Black!important;      /* Typed text color */
 
     font-size:18px;
 
